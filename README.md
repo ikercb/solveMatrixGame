@@ -1,7 +1,7 @@
 # solveMatrixGame
 Python solver for two-player zero-sum games.
 
-Implementation of the simplex algorithm to solve the matrix game using tableaus to write the basic form as presented in [1]. In the next section, the derivation of the linear programming problem is presented.
+Implementation of the simplex algorithm to solve the matrix game using tableaus to write the basic form as introduced in [1]. In the next section, the derivation of the linear programming problem is presented.
 
 ## Solution
 
