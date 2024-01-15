@@ -1,6 +1,8 @@
 # solveMatrixGame
 Python solver for two-player zero-sum games.
 
+Implementation of the simplex algorithm to solve the matrix game using tableaus to write the basic form as presented in [1]. In the next section, the derivation of the linear programming problem is presented.
+
 ## Solution
 
 Consider a two-player zero-sum game and let $M$ be its $m \times n$ matrix game. The row's player problem is to compute the row value $v$ and an optimal mixed strategy $p = (p_1, ..., p_m)$ such that $v$ is as large as possible and 
@@ -39,3 +41,7 @@ $$
 \text{subject to} \quad & \sum_{i=1}^{m} m_{ij}y_i \geq 1, \quad \text{for } 1 \leq j \leq n.
 \end{align*}
 $$
+
+## Reference
+
+[1] Morris, P. (1996). Introduction to game theory. Springer. 
