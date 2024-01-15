@@ -1,5 +1,5 @@
 # solveMatrixGame
-Python class to solve zero-sum games.
+Python solver for two-player zero-sum games.
 
 ## Solution
 
@@ -29,7 +29,7 @@ $$ \frac{1}{v} = \sum_{i=1}^{m} y_i. $$
 
 And condition (3):
 
-$$ \sum_{i=1}^{m} m_{ij}y_i \geq 1 \text{for } 1 \leq j \leq n. $$
+$$ \sum_{i=1}^{m} m_{ij}y_i \geq 1 \quad \text{for } 1 \leq j \leq n. $$
 
 And since maximizing $v$ is equivalent to minimizing $1/v$, we arrive at the formulation of a dual linear programming problem:
 
